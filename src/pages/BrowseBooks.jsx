@@ -30,10 +30,7 @@ function BrowseBooks() {
 
 <input
   type="text"
-
-      <input
-        type="text"
-        placeholder="Search books..."
+            placeholder="Search books..."
         value={search}
         onChange={(e) =>
           setSearch(e.target.value)
