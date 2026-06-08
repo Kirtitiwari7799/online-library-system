@@ -22,7 +22,14 @@ function BrowseBooks() {
 
   return (
     <div style={{ padding: "20px" }}>
-      <h1>{category} Books</h1>
+     <h1>{category} Books</h1>
+
+<p>
+  Explore books from this category and find your next favorite read.
+</p>
+
+<input
+  type="text"
 
       <input
         type="text"
